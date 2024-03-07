@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: complete-production-e2e-pipeline
-        image: kipkulei/complete-production-e2e-pipeline
+        image: kipkulei/complete-production-e2e-pipeline:1.0.0-10
         ports:
         - containerPort: 8080
