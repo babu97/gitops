@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: default
   name: complete-production-e2e-pipeline
   labels:
     app: complete-production-e2e-pipeline
