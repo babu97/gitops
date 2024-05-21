@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: service
 metadata:
+  namespace: default
   creationTimestamp: null
   labels:
     app: test
