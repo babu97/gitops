@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: default
   name: complete-production-e2e-pipeline
+  namespace: default
   labels:
     app: complete-production-e2e-pipeline
 spec:
@@ -20,3 +20,4 @@ spec:
         image: kipkulei/complete-production-e2e-pipeline:1.0.0-10
         ports:
         - containerPort: 8080
+
